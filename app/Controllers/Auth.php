@@ -20,7 +20,7 @@ class Auth extends BaseController
             "validation" => \Config\Services::validation() //Mengambil Pesan Kesalahan
         ];
 
-        return view('v_Test', $data);
+        return view('v_Auth', $data);
     }
 
     public function login()
